@@ -14,10 +14,11 @@ except ImportError:
 try:
     from PIL import Image
 except ImportError:
-    install("pillow")
+    install("pillow==8.4.0")
     from PIL import Image
 
 import streamlit as st
 
 st.title("테스트 앱")
-st.write("기본 Streamlit 앱입니다.") 
+st.write("기본 Streamlit 앱입니다.")
+st.image("https://example.com/image.jpg") 

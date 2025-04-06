@@ -1,0 +1,5 @@
+
+libpng-dev
+libjpeg-dev
+libtiff-dev
+zlib1g-dev
