@@ -19,6 +19,8 @@ except ImportError:
 
 import streamlit as st
 
-st.title("테스트 앱")
-st.write("기본 Streamlit 앱입니다.")
-st.image("https://example.com/image.jpg") 
+st.title("직장 인간관계 조언 봇")
+st.write("데일 카네기의 『인간관계론』을 바탕으로 직장 생활의 문제를 해결하는 데 도움을 드립니다.")
+
+if st.button("테스트 버튼"):
+    st.success("앱이 정상적으로 작동합니다!") 
